@@ -80,7 +80,7 @@ function playGame() {
         console.log(`You win! Final score= ${humanScore}:${computerScore}`)
     }
     else if (computerScore > humanScore) {
-        console.log(`You lose! Final score= ${computerScore}:${humanScore}`)
+        console.log(`You lose! Final score= ${humanScore}:${computerScore}`)
     }
     else if (computerScore === humanScore) {
         console.log(`Game ends in a draw! ${humanScore}=${computerScore}`)
